@@ -152,7 +152,7 @@ void* bedroom()
 	strcat(text, "You are in your bedroom. The *bed is made and looks like a nice place to be. There's a heap of clean clothes on the floor");
 	if (state.wallet_picked_up == 0)
 		strcat(text, ", upon which your *wallet has been tossed");
-	strcat(text, ". You're trialling a new fabric conditioner and are fairly pleased with it.\n The light is switched off but with the *hallway door open you can see pretty well.\n On your bedside table is a pile of one- and two-pound coins, which you maintain in order to have a reliable supply of tips for takeaway drivers. If you spared a though you'd realise that this isn't a very good place to keep the ever-present stash of change, but it's always been this way and you don't really notice it anymore.\n The curtains are still open but it's pitch-black in the garden, and the red LCD display on your clock is flashing !r12:00\n !!You're not sure why.");
+	strcat(text, ". You're trialling a new fabric conditioner and are fairly pleased with it.\n The light is switched off but with the *hallway door open you can see pretty well.\n On your bedside table is a pile of one- and two-pound coins, which you maintain in order to have a reliable supply of tips for takeaway drivers. If you spared a thought you'd realise that this isn't a very good place to keep the ever-present stash of change, but it's always been this way and you don't really notice it anymore.\n The curtains are still open but it's pitch-black in the garden, and the red LCD display on your clock is flashing !r12:00\n !!You're not sure why.");
 
 	ui(text);
 	while (true)
